@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#reloadBtn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#reloadBtn:hover {
+  background: #0056b3;
+}
+
+.user-card {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.user-card h2 {
+  margin: 0 0 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
